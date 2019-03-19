@@ -2,5 +2,11 @@ h1 {
     color: blueviolet;
 }
 .navigation {
-    background: #090909;
+    /* background: #090909; */
 }
+
+.navigation {
+    flex-basis: 20%;
+    min-width: 300px;
+    padding: 20px;
+  }

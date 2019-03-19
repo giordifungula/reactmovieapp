@@ -8,7 +8,7 @@ class Navigation extends React.Component {
   render() {
     return (
       <section className="navigation">
-        <h1>Navigation</h1>
+        {/* <h1>Navigation</h1> */}
       </section>
     )
   }

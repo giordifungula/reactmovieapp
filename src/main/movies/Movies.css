@@ -1,3 +1,33 @@
-.movies {
-    background: #eee;
-}
+    .movies {
+        background: #eee;
+        flex-basis: 80%;
+        display: flex;
+        flex-wrap: wrap;
+    
+        padding: 20px 0;
+        margin: 0;
+    }
+
+    /* .movies {
+        
+    } */
+
+    .movie {
+    width: 240px;
+    height: 100px;
+    margin: 5px;
+    background: tomato;
+    }
+
+    .movie-item {
+    flex-basis: 22%;
+    box-sizing: border-box;
+    margin: 1.5%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    }
+        
+    .movie-item img {
+    width: 100%;
+    }
