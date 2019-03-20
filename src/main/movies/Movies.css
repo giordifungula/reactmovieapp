@@ -31,3 +31,49 @@
     .movie-item img {
     width: 100%;
     }
+
+    /* Style the description and name */
+    .movie-item img {
+        width: 100%;
+    }
+    
+    .movie-description {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    
+    .movie-description h2 {
+        color: #555;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    .movie-details {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .movie-details span {
+        color: #555;
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    
+    .movie-year, .movie-rating {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .movie-year .title, .movie-rating .title {
+        color: #aaa;
+        margin-bottom: 5px;
+        font-size: 0.65rem;
+        font-weight: normal;
+    }
+    
+    .movie-rating {
+        align-items: flex-end;
+    }
